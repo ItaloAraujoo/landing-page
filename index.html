@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple landing page</title>
+</head>
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" role="button" aria-label="Close">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    
+    <header class="menu">
+        <section class="main-content menu-content">
+            <h1>
+                <a onclick="getElementById('close-menu').checked = false;" href="#home">LOGO</a>
+            </h1>
+        
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#grid-one">grid-1</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#grid-two">grid-2</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <div class="menu-spacing"></div>
+
+    <main>
+        <section id="home" class="intro main-bg section">
+            <div class="main-content intro-content">
+                <div class="intro-text-content">
+                    <h2>html and css is fantastic</h2>
+                    <p>
+                        Although we live in the age of video communication, text is still the most basic and direct form of communication on web sites.
+                        In this section of the CSS documentation we will see how to use bold, italics and underlines, change the font and apply effects on text elements.
+                        You will also learn to set the spacing between lines and letters.
+                    </p>
+                </div>
+                <div class="intro-img">
+                    <img src="img/undraw_static_assets_rpm6.svg" alt="desenhos animados segurando linguagens de programação, marcação e estilo(HTML, CSS E JAVASCRIPT)">
+                </div>
+            </div>
+        </section>
+
+        <section id="intro" class="white-bg section">
+            <div class="main-content top3-content">
+                <h2>top 3 jobs</h2>
+                <p>
+                    It’s a question we get here at Skillcrush all the time, and the short answer is yes, with caveats.
+                    If you want to start working in tech, the first thing you should do is learn HTML and CSS.
+                </p>
+
+                <p>
+                    You can start building simple websites with HTML and CSS within weeks of diving in…
+                    but when can you start looking for paying work as a software developer using your new skills?
+                </p>
+
+                <p>
+                    If you search for “HTML jobs” or “CSS jobs,” how can you tell what you’re already qualified for and what additional skills
+                    and tech experience you need to get hired?
+                </p>
+
+                <p>
+                    This article contains the best HTML5 courses from sites like Udemy, Coursera, Pluralsight, Educative, and edX for beginners and experienced developers.
+                </p>
+            </div>
+        </section>
+
+        <section id="grid-one" class="grid-one main-bg section">
+            <div class="main-content grid-one-content">
+                <h2 class="grid-main-heading">top 3 jobs</h2>
+                <p class="grid-description">
+                    Uma breve descrição
+                </p>
+                <div class="grid">
+                    <article>
+                        <h3>Teste 1</h3>
+                        <p>
+                            It’s a question we get here at Skillcrush all the time, and the short answer is yes, with caveats.
+                            If you want to start working in tech, the first thing you should do is learn HTML and CSS.
+                        </p>
+                    </article>
+                    
+                    <article>
+                        <h3>Teste 2</h3>
+                        <p>
+                            It’s a question we get here at Skillcrush all the time, and the short answer is yes, with caveats.
+                            If you want to start working in tech, the first thing you should do is learn HTML and CSS.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h3>Teste 3</h3>
+                        <p>
+                            It’s a question we get here at Skillcrush all the time, and the short answer is yes, with caveats.
+                            If you want to start working in tech, the first thing you should do is learn HTML and CSS.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Gallery</h2>
+            <p class="grid-description">
+                Uma breve descrição
+            </p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?r=1" alt="imagens aleatorias">
+                </div>
+                
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?h=2" alt="imagens aleatorias">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?g=3" alt="imagens aleatorias">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?y=3" alt="imagens aleatorias">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?t=9" alt="imagens aleatorias">
+                </div>
+
+                <div class="gallery-img">
+                    <img src="http://source.unsplash.com/random/360x360?i=8" alt="imagens aleatorias">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grid-two" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">top 3 jobs</h2>
+            <p class="grid-description">
+                Uma breve descrição
+            </p>
+            <div class="grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>
+                        It’s a question we get here at Skillcrush all the time, and the short answer is yes, with caveats.
+                        If you want to start working in tech, the first thing you should do is learn HTML and CSS.
+                    </p>
+                </article>
+                
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>
+                        It’s a question we get here at Skillcrush all the time, and the short answer is yes, with caveats.
+                        If you want to start working in tech, the first thing you should do is learn HTML and CSS.
+                    </p>
+                </article>
+
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>
+                        It’s a question we get here at Skillcrush all the time, and the short answer is yes, with caveats.
+                        If you want to start working in tech, the first thing you should do is learn HTML and CSS.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>Pricing</h2>
+            <p>
+                It’s a question we get here at Skillcrush all the time, and the short answer is yes, with caveats.
+                If you want to start working in tech, the first thing you should do is learn HTML and CSS.
+            </p>
+
+            <p>
+                You can start building simple websites with HTML and CSS within weeks of diving in…
+                but when can you start looking for paying work as a software developer using your new skills?
+            </p>
+
+            <div id="pricing" class="responsive-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Ttile 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                    </tbody>
+    
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Footer 1</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+            <div class="main-content intro-content">
+                <div class="intro-text-content">
+                    <h2>html and css is fantastic</h2>
+                    <p>
+                        Although we live in the age of video communication, text is still the most basic and direct form of communication on web sites.
+                        In this section of the CSS documentation we will see how to use bold, italics and underlines, change the font and apply effects on text elements.
+                        You will also learn to set the spacing between lines and letters.
+                    </p>
+                </div>
+                <div class="intro-img">
+                    <img src="img/undraw_static_assets_rpm6.svg" alt="desenhos animados segurando linguagens de programação, marcação e estilo(HTML, CSS E JAVASCRIPT)">
+                </div>
+
+                <div class="contact-form">
+                    <fieldset class="form-grid">
+                        <legend>Contact me</legend>
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="Your first name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Your last name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+
+        </section>
+
+        <footer id="footer" class="white-bg">
+            <p><a target="_blank" href="http://beacons.ai/italoaraujoo"> Feito com carinho <span>❤</span> por Ítalo Araújo</a></p>
+        </footer>
+
+        <a class="back-to-top" href="">↑</a>
+
+</body>
+</html>
