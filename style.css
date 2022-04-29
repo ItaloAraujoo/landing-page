@@ -202,10 +202,12 @@ body .full-width {
 
 .grid-main-heading {
     margin-bottom: 1rem;
+    margin: 0 auto;
 }
 
 .grid-description {
     padding-bottom: 5rem;
+    margin: 0 auto;
 }
 
 .grid {
@@ -455,5 +457,18 @@ tfoot td, table th {
     .close-menu:checked~.close-menu-label::after{
         display: block;
         content: '×';
+    }
+
+}
+
+@media(min-width: 400px) and (max-width: 799px){
+    .grid-main-heading{
+        margin: 0 auto;
+        display: table;
+    }
+    
+    .grid-description{
+        margin: 0 auto;
+        display: table;
     }
 }
